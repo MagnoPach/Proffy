@@ -109,18 +109,32 @@
         align-self: center;
         margin: 0;
     }
+    
     .logo-container img {
         height: 127px;
     }
+
+    .logo-container h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
     .hero-image {
         grid-area: image;
         height: 350px;
     }
+
     .buttons-container {
         grid-area: button;
         justify-content: flex-start;
         margin: 0;
     }
+
+    .buttons-container a {
+        width: 25rem;
+        height: 8rem;
+    }
+
     .total-connections {
         grid-area: texting;
         justify-self: end;

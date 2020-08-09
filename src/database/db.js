@@ -7,7 +7,7 @@ function execute(db) {
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             name TEXT,
             avatar TEXT,
-            Whatsapp TEXT,
+            whatsapp TEXT,
             bio TEXT
         );
 
