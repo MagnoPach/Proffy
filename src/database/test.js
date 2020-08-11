@@ -64,7 +64,7 @@ Database.then(async (db) => {
         AND class_schedule.time_to > "520"
     `)
 
-    console.log(selectClassesSchedule)
+    console.log(selectedProffys)
 })
 
 
