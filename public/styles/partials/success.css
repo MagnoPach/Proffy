@@ -1,0 +1,90 @@
+body {
+    background-image: url(/images/success-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+    position: relative;
+    
+    background-color: var(--color-primary);
+}
+
+.success-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-info img {
+    padding-bottom: 2rem;
+    width: 9rem;
+
+
+}
+
+.success-info h1 {
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45px;
+    /* identical to box height, or 78% */
+    text-align: center;
+    /* Texts In purple / Título */
+    color: #FFFFFF;
+
+    padding-bottom: 2.5rem;
+}
+
+.success-info p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    /* or 162% */
+    text-align: center;
+    /* Texts In purple / Base */
+    color: #D4C2FF;
+    padding: 0 auto;
+}
+
+.success-info button {
+    width: 20rem;
+    height: 5rem;
+    background: var(--color-secondary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    margin-top: 6rem;
+}
+
+.success-info button:hover {
+    background-color: var(--color-secondary-dark);
+}
+
+@media (min-width:700px) {
+    body {
+        background-size: 85%;
+    }
+    .success-info img {
+        padding-bottom: 3rem;
+        width: 11rem;   
+    }
+    .success-info h1 {
+        font-size: 54px;
+    }
+
+    .success-info p {
+        
+        font-size: 16px;
+        line-height: 26px;
+        
+    }
+}

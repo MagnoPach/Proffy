@@ -22,6 +22,12 @@ server
 .get("/", pageLanding)
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
+.get("/sucess", (req, res) => {
+    
+    return res.sendFile(__dirname + "/views/sucess.html")
+})
+
 .post("/save-classes", saveClasses)
+
 // start do servidor 
 .listen(5500)
